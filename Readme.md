@@ -97,16 +97,16 @@ Install my project:
 The modeling process is broken down into four parts. 
 
 ### Raw Data
-* CSV file is loaded into Azure Blob Storage. 
+CSV file was loaded into Azure Blob Storage. Data was loaded into Azure Databricks using Spark. 
 
 ### Data Pipeline and Transformation
-* The next stage is creating a data pipeline and finishing data transformation.
+This step was involving data exploration, cleaning, transforming, and feature selection. 
 
 ### Model Building
-* The third stage is training the linear regression model.
+This step was training the linear regression model using Sklearn. Statiscal tests were used to verify the usability of the model. These tests were based on the assumption of linear regression.
 
 ### Experiment Tracking and Model Serving
-* The final stage is exporting the model and experiments into mlflow.
+The final stage is exporting the model and experiments into mlflow in Databricks. Experiment tracking data and runs were saved along with the first model version.
 
 ## Limitations
 
