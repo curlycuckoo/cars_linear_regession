@@ -94,6 +94,13 @@ Install my project:
 
 ![](https://res.cloudinary.com/makotoevo/image/upload/v1658276228/cars_regerssion_flowchart_nkelpx.png)
 
+The modeling process is broken down into four parts. 
+
+*CSV file is loaded into Azure Blob Storage. 
+*The next stage is creating a data pipeline and finishing data transformation.
+*The third stage is training the linear regression model.
+*The final stage is exporting the model and experiments into mlflow.
+
 ## Limitations
 
 Residual plots in the EDA show that cars manufactured after 2019 have increased exponentially in price. This is due to economic fallout from the ongoing COVID-19 pandemic and global inflation. The selling listed in Ladakh for in 2020 or 2021 cars may be similar in price to before 2019 without inflation. This greatly affects the data, leading to higher than normal prices for cars due to many factors such as supply chain issues, parts cost, etc. These increased costs can make a model difficult to deploy, given the many unseen factors going into the price to produce the car. Further investigation will be required to determine the exact effects of inflation. 
