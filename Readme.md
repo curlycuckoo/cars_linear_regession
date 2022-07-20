@@ -96,10 +96,10 @@ Install my project:
 
 The modeling process is broken down into four parts. 
 
-*CSV file is loaded into Azure Blob Storage. 
-*The next stage is creating a data pipeline and finishing data transformation.
-*The third stage is training the linear regression model.
-*The final stage is exporting the model and experiments into mlflow.
+* CSV file is loaded into Azure Blob Storage. 
+* The next stage is creating a data pipeline and finishing data transformation.
+* The third stage is training the linear regression model.
+* The final stage is exporting the model and experiments into mlflow.
 
 ## Limitations
 
